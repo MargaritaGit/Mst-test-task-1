@@ -1,0 +1,27 @@
+.top-header {
+    width: 100%;
+    text-transform: uppercase;
+    padding: 3rem 0;
+    position: fixed;
+    z-index: 10;
+    transition: background, 0.5s;
+}
+
+.top-header__wrapper {
+    display: flex;
+    gap: 20.5rem;
+    align-items: center;
+}
+
+.top-header__logo {
+    font-size: 3.6rem;
+    line-height: 150%;
+}
+
+.top-header__list {
+    display: flex;
+    gap: 2.9rem;
+
+    font-style: italic;
+    list-style-type: none;
+}

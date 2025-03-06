@@ -1,0 +1,30 @@
+@import './resets.css';
+@import './header.css';
+@import './top-header.css';
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    line-height: 140%;
+    color: #fff;
+}
+
+.wrapper {
+    width: 96%;
+    max-width: 159.7rem;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    font-family: 'Prata';
+}
+
+a {
+    color: #fff;
+}
+
+.btn {
+    border-radius: 0.4rem;
+    cursor: pointer;
+}
