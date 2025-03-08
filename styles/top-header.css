@@ -7,6 +7,10 @@
     transition: background, 0.5s;
 }
 
+.top-header:hover {
+    background-color: #222222cc;
+}
+
 .top-header__wrapper {
     display: flex;
     gap: 20.5rem;
@@ -14,6 +18,7 @@
 }
 
 .top-header__logo {
+    font-family: Prata;
     font-size: 3.6rem;
     line-height: 150%;
 }

@@ -5,8 +5,8 @@
 
 .header__content {
     padding-top: 34rem;
-    max-width: 53.7rem;
     padding-bottom: 5rem;
+    /* line-height: 120%; */
 }
 
 .header__heading {
@@ -14,12 +14,18 @@
     font-weight: normal;
     line-height: 120%;
     margin-bottom: 5rem;
+    max-width: 73.7rem;
+
 }
 
 .header__subheading {
+    /* font-family: Arial, Helvetica, sans-serif; */
     font-size: 5rem;
     font-weight: normal;
     margin-bottom: 6.4rem;
+    line-height: 120%;
+    max-width: 83.7rem;
+
 }
 
 .header__list {
@@ -29,19 +35,29 @@
     margin-bottom: 4rem;
 }
 
+.header__li {
+    display: flex;
+    align-items: center;
+    gap: 1.7rem;
+}
+
 .header__li span {
     font-family: Prata;
     font-size: 4rem;
+    letter-spacing: 4%;
     line-height: 150%;
 }
 
+.header__li::before {
+    content: '';
+    display: inline-block;
+    width: 3.9rem;
+    height: 3.9rem;
+    background: url(../img/done.png);
+}
+
 .header__btn {
-    width: 19.1rem;
-    height: 9.6rem;
-    background-color: #fff;
-    color: #000;
-    font-size: 2.4rem;
-    text-transform: uppercase;
+    padding: 3.6rem 5rem;
 }
 
 .header__btn:hover {
@@ -52,9 +68,6 @@
     width: 40%;
     height: 100%;
     background: url(../img/header.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
     position: absolute;
     top: 0;
     right: 0;
