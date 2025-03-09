@@ -45,7 +45,7 @@
     font-family: Prata;
     font-size: 4rem;
     letter-spacing: 4%;
-    line-height: 150%;
+    line-height: 100%;
 }
 
 .header__li::before {
@@ -53,7 +53,7 @@
     display: inline-block;
     width: 3.9rem;
     height: 3.9rem;
-    background: url(../img/done.png);
+    background: url(../img/done.png) no-repeat;
 }
 
 .header__btn {

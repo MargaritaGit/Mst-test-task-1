@@ -2,6 +2,7 @@
 @import './header.css';
 @import './top-header.css';
 @import './benefits.css';
+@import './registration.css';
 
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +14,7 @@ body {
 
 .wrapper {
     width: 96%;
-    max-width: 159.7rem;
+    max-width: 160rem;
     margin: 0 auto;
 }
 
@@ -27,8 +28,6 @@ a {
 }
 
 .btn {
-    background-color: #fff;
-    color: #000;
     font-size: 2.4rem;
     font-weight: bold;
     line-height: 1;
@@ -36,6 +35,17 @@ a {
     text-transform: uppercase;
     border-radius: 0.4rem;
     cursor: pointer;
+}
+
+.btn_white {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.btn_black {
+    background-color: #282829;
+    color: #fff;
 }
 
 .img-cont {
