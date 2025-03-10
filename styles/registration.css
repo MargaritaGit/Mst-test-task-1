@@ -1,12 +1,36 @@
 .registration {
     padding: 10rem 0;
     color: #38535D;
+    display: flex;
+    overflow: hidden;
 }
 
-.registration__content {
+.registration__wrapper {
+    background: url(../img/Form-img.png) no-repeat;
     background-color: #fff;
+    border-radius: 3rem;
+    background-position: top right;
+    /* background-size: cover; */
+    position: relative;
+
+}
+
+.shutter {
     width: 100%;
-    height: 63rem;
+    height: 10rem;
+    background-color: #282829;
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+}
+
+.registration__img {
+    position: absolute;
+    top: -13rem;
+    right: 10rem;
+
+    width: 60rem;
+    height: 90.4rem;
 }
 
 .registration__heading {
@@ -20,7 +44,8 @@
 .registration__form-cont {
     width: 78rem;
     margin-left: 13.4rem;
-    padding-top: 14.5rem;
+    /* padding-top: 14.5rem; */
+    padding-top: 13.36rem;
 
 }
 
@@ -37,9 +62,13 @@
     padding: 1.45rem 3.8rem;
     font-size: 2.4rem;
     line-height: 150%;
+    border: 0.1rem solid #D6D6D6;
+    border-radius: 0.4rem;
 }
 
-.registration__name {}
+.registration__input:hover {
+    border: 0.1rem solid #38535D;
+}
 
 .registration__email {
     margin-bottom: 1.3rem;
@@ -62,5 +91,6 @@
 
 .registration__btn {
     width: 100%;
-    height: 10rem;
+    padding: 3.2rem 0;
+    line-height: 150%;
 }
