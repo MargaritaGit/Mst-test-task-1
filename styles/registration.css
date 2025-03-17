@@ -95,6 +95,11 @@
     line-height: 150%;
 }
 
+.registration__btn:hover {
+    padding: 3.1rem 0;
+
+}
+
 @media (max-width: 1650px) {
     .registration__heading {
         font-size: 5rem;

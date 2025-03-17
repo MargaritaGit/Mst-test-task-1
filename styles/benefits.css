@@ -64,6 +64,11 @@
     /*p-t: 2.69rem*/
 }
 
+.benefits__btn:hover {
+    padding: 3.1rem 0;
+
+}
+
 @media (max-width: 1440px) {
     .benefits__img-cont_l {
         display: none;
