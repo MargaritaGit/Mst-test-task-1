@@ -10,7 +10,6 @@
     background-color: #fff;
     border-radius: 3rem;
     background-position: top right;
-    /* background-size: cover; */
     position: relative;
 
 }
@@ -33,6 +32,14 @@
     height: 90.4rem;
 }
 
+.registration__form-cont {
+    max-width: 78rem;
+    margin-left: 13.4rem;
+    /* padding-top: 14.5rem; */
+    padding-top: 13.36rem;
+
+}
+
 .registration__heading {
     font-size: 5.4rem;
     font-weight: normal;
@@ -41,13 +48,6 @@
     padding-bottom: 4.5rem;
 }
 
-.registration__form-cont {
-    width: 78rem;
-    margin-left: 13.4rem;
-    /* padding-top: 14.5rem; */
-    padding-top: 13.36rem;
-
-}
 
 .registration__form {
     width: 100%;
@@ -59,7 +59,7 @@
 
 .registration__input {
     width: 100%;
-    padding: 1.45rem 3.8rem;
+    padding: 1.45rem 0 1.45rem 3.8rem;
     font-size: 2.4rem;
     line-height: 150%;
     border: 0.1rem solid #D6D6D6;
@@ -93,4 +93,93 @@
     width: 100%;
     padding: 3.2rem 0;
     line-height: 150%;
+}
+
+@media (max-width: 1650px) {
+    .registration__heading {
+        font-size: 5rem;
+    }
+
+    .registration__form-cont {
+        width: 63rem;
+
+    }
+
+}
+
+@media (max-width: 1440px) {
+    .registration__heading {
+        font-size: 4rem;
+    }
+
+    .registration__form-cont {
+        width: 48rem;
+        padding-top: 10.36rem;
+    }
+
+}
+
+@media (max-width: 1350px) {
+
+    .registration__img {
+        right: 0rem;
+    }
+
+    .registration__form-cont {
+        width: 43rem;
+
+    }
+}
+
+@media (max-width: 1250px) {
+    .registration__heading {
+        color: #282829;
+    }
+}
+
+@media (max-width: 1135px) {
+    .registration__img {
+        right: -7rem;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .registration__wrapper {
+        background: url(../img/Form-img_copy.png);
+        background-color: #ffffff77;
+        background-blend-mode: overlay;
+    }
+
+    .registration__form-cont {
+        max-width: 68rem;
+        width: 96%;
+        margin: 0 auto;
+    }
+
+    .registration__img {
+        display: none;
+    }
+
+    .registration__heading {
+        font-size: 3.5rem;
+    }
+
+    .registration__label {
+        color: #282829;
+
+    }
+
+
+}
+
+@media (max-width: 768px) {
+    .registration__input {
+        border-radius: 2rem;
+    }
+
+    .registration__btn {
+        border-top-left-radius: 2rem !important;
+        border-top-right-radius: 2rem !important;
+    }
 }
