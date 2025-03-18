@@ -60,13 +60,13 @@
 .benefits__btn {
     width: 100%;
     text-align: center;
+    font-weight: bold;
     padding: 3.2rem 0;
     /*p-t: 2.69rem*/
 }
 
 .benefits__btn:hover {
     padding: 3.1rem 0;
-
 }
 
 @media (max-width: 1440px) {
@@ -112,10 +112,30 @@
     }
 }
 
-@media (max-width: 760px) {
-    .benefits__content {
+@media (max-width: 768px) {
 
+    .benefits__content {
         width: 96%;
         margin: 0 auto;
+    }
+}
+
+@media (max-width: 450px) {
+    .benefits {
+        padding-top: 3rem;
+        font-size: 2rem;
+    }
+
+    .benefits__btn {
+        font-size: 2rem !important;
+        padding: 2.5rem 0;
+    }
+
+    .benefits__btn:hover {
+        padding: 2.4rem 0;
+    }
+
+    .benefits__btn:focus {
+        padding: 2.4rem 0;
     }
 }

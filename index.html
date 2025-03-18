@@ -15,17 +15,18 @@
 <body>
     <div id="top-header" class="top-header">
         <div class="wrapper top-header__wrapper">
-            <div class="top-header__logo">DM Courses</div>
+            <div class="top-header__logo"><a href="#about">DM Courses</a></div>
             <nav class="top-header__nav">
                 <ul class="top-header__list">
-                    <li class="top-header__li"><a class="top-header__link" href="">About</a> </li>
-                    <li class="top-header__li"><a class="top-header__link" href="">Benefits</a></li>
-                    <li class="top-header__li"><a class="top-header__link" href="">Contacts</a></li>
+                    <li class="top-header__li"><a class="top-header__link" href="#benefits">Benefits</a> </li>
+                    <li class="top-header__li"><a class="top-header__link" href="#join-us">Join us</a>
+                    </li>
+                    <li class="top-header__li"><a class="top-header__link" href="#contacts">Contacts</a></li>
                 </ul>
             </nav>
         </div>
     </div>
-    <header class="header">
+    <header class="header" id="about">
         <div class="wrapper header__wrapper">
             <div class="header__content">
                 <h1 class="header__heading">Master Digital Marketing</h1>
@@ -36,7 +37,8 @@
                     <li class="header__li header__li_mob"><span>5</span> years in the education</li>
                     <li class="header__li"><span>$150</span> Special offer</li>
                 </ul>
-                <button class="btn btn_white header__btn">order</button>
+                <!-- <button class="btn btn_white header__btn">order</button> -->
+                <a class="btn btn_white header__btn" href="#join-us">order</a>
             </div>
         </div>
 
@@ -44,7 +46,7 @@
         </div>
     </header>
 
-    <div class="benefits">
+    <div class="benefits" id="benefits">
         <div class="img-cont benefits__img-cont  benefits__img-cont_l"></div>
         <div class="benefits__content">
             <ul class="benefits__list">
@@ -65,12 +67,13 @@
                     </div>
                 </li>
             </ul>
-            <button class="btn btn_white benefits__btn">Order</button>
+            <!-- <button class="btn btn_white benefits__btn">Order</button> -->
+            <a href="#join-us" class="btn btn_white benefits__btn">Order</a>
         </div>
         <div class="img-cont benefits__img-cont benefits__img-cont_r"></div>
     </div>
 
-    <div class="registration">
+    <div class="registration" id="join-us">
         <div class="wrapper registration__wrapper">
             <div class="registration__content">
                 <div class="registration__form-cont">
@@ -93,12 +96,12 @@
     </div>
 
 
-    <footer class="footer">
+    <footer class="footer" id="contacts">
         <nav class="footer__nav">
             <ul class="footer__list">
-                <li class="footer__li"><a class="footer__link" href="">About</a> </li>
-                <li class="footer__li"><a class="footer__link" href="">Benefits</a></li>
-                <li class="footer__li"><a class="footer__link" href="">Contacts</a></li>
+                <li class="footer__li"><a class="footer__link" href="#benefits">Benefits</a> </li>
+                <li class="footer__li"><a class="footer__link" href="#join-us">Join us</a></li>
+                <li class="footer__li"><a class="footer__link" href="#contacts">Contacts</a></li>
             </ul>
         </nav>
         <div class="wrapper footer__wrapper footer__wrapper_top">
@@ -112,7 +115,8 @@
                 <img class="footer__social-icon" src="./img/Youtube-icon.svg" alt="Youtube-icon">
             </div>
             <div class="footer__btn-cont">
-                <button class="btn btn_white footer__btn">Order</button>
+                <!-- <button class="btn btn_white footer__btn">Order</button> -->
+                <a href="#join-us" class="btn btn_white footer__btn">Order</a>
             </div>
         </div>
         <div class="wrapper footer__wrapper footer__wrapper_bottom">

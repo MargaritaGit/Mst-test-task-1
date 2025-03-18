@@ -64,12 +64,13 @@
 }
 
 .header__btn {
+    display: inline-block;
     padding: 3.6rem 5rem;
+    font-weight: bold;
 }
 
 .header__btn:hover {
     padding: 3.5rem 5rem;
-
 }
 
 .header__img-cont {
@@ -156,18 +157,36 @@
 
 }
 
-@media (max-width: 425px) {
+@media (max-width: 450px) {
+    .header__content {
+        padding-top: 16rem;
+    }
+
     .header__heading {
         font-size: 5rem;
+        margin-bottom: 2.5rem;
     }
 
     .header__subheading {
         font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .header__list {
+        gap: 3.5rem;
     }
 
     .header__btn {
-        padding: 2rem 3.2rem;
-        font-size: 1.8rem;
+        padding: 2.5rem 4rem;
+        font-size: 2rem !important;
+    }
+
+    .header__btn:hover {
+        padding: 2.4rem 4rem;
+    }
+
+    .header__btn:focus {
+        padding: 2.4rem 4rem;
     }
 }
 
@@ -192,18 +211,22 @@
 @media (max-width: 330px) {
 
     .header__content {
-        padding-top: 20rem;
+        padding-top: 15rem;
         padding-bottom: 4rem;
     }
 
     .header__heading {
         font-size: 4rem;
-        margin-bottom: 2.5rem;
+        margin-bottom: 2rem;
     }
 
     .header__subheading {
         font-size: 2.7rem;
-        margin-bottom: 3rem;
+        margin-bottom: 2.5rem;
+    }
+
+    .header__list {
+        gap: 3rem;
     }
 
     .header__li {

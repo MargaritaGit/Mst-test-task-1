@@ -48,12 +48,6 @@
 }
 
 
-@media (max-width: 1024px) {
-    .top-header__wrapper {
-        /* gap: 10.5rem; */
-    }
-}
-
 @media (max-width: 768px) {
     .top-header__wrapper {
         flex-direction: column;
@@ -69,6 +63,14 @@
 }
 
 @media (max-width: 450px) {
+    .top-header {
+        padding: 2rem 0;
+    }
+
+    .top-header__wrapper {
+        gap: 1.2rem;
+    }
+
     .top-header__logo {
         font-size: 3rem;
     }

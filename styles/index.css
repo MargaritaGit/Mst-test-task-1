@@ -31,7 +31,6 @@ a {
 
 .btn {
     font-size: 2.4rem;
-    font-weight: bold;
     letter-spacing: 4%;
     text-transform: uppercase;
     border-radius: 0.4rem;
@@ -40,6 +39,8 @@ a {
 }
 
 .btn_white {
+    /* for anchors */
+    display: inline-block;
     background-color: #fff;
     color: #000;
     line-height: 1;
@@ -52,12 +53,25 @@ a {
     border: 1px solid #fff;
 }
 
+.btn_white:focus {
+    /* background-color: #eee; */
+    background-color: #282829;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
 .btn_black {
     background-color: #282829;
     color: #fff;
 }
 
 .btn_black:hover {
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #282829;
+}
+
+.btn_black:focus {
     background-color: #fff;
     color: #000;
     border: 1px solid #282829;
