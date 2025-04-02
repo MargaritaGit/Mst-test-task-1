@@ -10,6 +10,13 @@
 
     <script defer src="./scripts/top-header_scroll_effect.js"></script>
 
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+
+    <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script defer src="./scripts/slider.js"></script>
+
+
 </head>
 
 <body>
@@ -73,6 +80,48 @@
         <div class="img-cont benefits__img-cont benefits__img-cont_r"></div>
     </div>
 
+    <!-- Slider main container -->
+    <div class="swiper mySwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+                <img src="./img/slider/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/slider/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/slider/domenico-loia-hGV2TfOh0ns-unsplash (1).jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/slider/jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/slider/krakenimages-376KN_ISplE-unsplash.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/slider/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/slider/thought-catalog-505eectW54k-unsplash.jpg" alt="">
+            </div>
+            <div class="swiper-slide">
+                <img src="./img/slider/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg" alt="">
+            </div>
+        </div>
+        <!-- If we need pagination -->
+        <!-- <div class="swiper-pagination"></div> -->
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+
+
     <div class="registration" id="join-us">
         <div class="wrapper registration__wrapper">
             <div class="registration__content">
@@ -127,6 +176,20 @@
     </footer>
 
 
+    <!-- Swiper JS -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script> -->
+
+    <!-- Initialize Swiper -->
+    <!-- <script>
+
+        const swiper = new Swiper(".mySwiper", {
+            loop: true,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+        });
+    </script> -->
 
 </body>
 
