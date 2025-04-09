@@ -188,11 +188,16 @@
     .registration__btn {
         padding: 2.5rem 0;
     }
+
+    .shutter {
+        display: none;
+        ;
+    }
 }
 
 @media (max-width: 768px) {
     .registration {
-        padding: 8rem 0;
+        padding: 6rem 0;
     }
 
     .registration__form-cont {
@@ -211,7 +216,7 @@
 
 @media (max-width: 450px) {
     .registration {
-        padding: 6rem 0;
+        padding: 5rem 0;
     }
 
     .registration__heading {

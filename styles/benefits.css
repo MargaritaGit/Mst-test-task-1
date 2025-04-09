@@ -1,5 +1,5 @@
 .benefits {
-    padding-top: 10rem;
+    padding-top: 6rem;
     display: flex;
     gap: 5.3rem;
 }
@@ -113,6 +113,13 @@
 }
 
 @media (max-width: 768px) {
+    .benefits {
+        padding-top: 3rem;
+    }
+
+    .benefits__li {
+        padding: 3rem 0;
+    }
 
     .benefits__content {
         width: 96%;
@@ -122,8 +129,12 @@
 
 @media (max-width: 450px) {
     .benefits {
-        padding-top: 3rem;
+        padding-top: 2rem;
         font-size: 2rem;
+    }
+
+    .benefits__li {
+        padding: 2.5rem 0;
     }
 
     .benefits__btn {
