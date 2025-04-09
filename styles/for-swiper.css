@@ -1,17 +1,29 @@
-.swiper {
-    width: 900px;
-    height: 500px;
+.swiper-cont {
+    padding: 10rem 0 3rem;
+}
+
+.swiper__header {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5rem;
+    font-weight: normal;
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.swiper-autoplay {
+    max-width: 1000px;
+    width: 96%;
+    height: 90%;
     color: black;
-    margin-top: 10rem;
 }
 
 .swiper-slide {
-    text-align: center;
+    /* text-align: center;
     font-size: 18px;
     background: #fff;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
 }
 
 .swiper-slide img {
@@ -19,4 +31,58 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+/* For custom pagination */
+/* .swiper-pagination-bullet {
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    color: #000;
+    opacity: 1;
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.swiper-pagination-bullet-active {
+    color: #fff;
+    background: #007aff;
+} */
+
+@media (max-width: 1024px) {
+    .swiper-cont {
+        padding: 8rem 0 0rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .swiper-cont {
+        padding: 7rem 0 0rem;
+    }
+
+    .swiper__header {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 568px) {
+    .swiper__header {
+        font-size: 3rem;
+        margin-bottom: 3rem;
+    }
+
+    .swiper-cont {
+        padding: 6rem 0 0rem;
+    }
+
+}
+
+@media (max-width: 400px) {
+    .swiper__header {
+        font-size: 2.3rem;
+        margin-bottom: 2rem;
+
+    }
+
 }

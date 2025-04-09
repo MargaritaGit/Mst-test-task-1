@@ -6,15 +6,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing (test-task-1)</title>
 
-    <link rel="stylesheet" href="./styles/index.css">
-
     <script defer src="./scripts/top-header_scroll_effect.js"></script>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 
+    <link rel="stylesheet" href="./styles/index.css">
+
     <script defer src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
     <script defer src="./scripts/slider.js"></script>
+
+    <script defer src="./scripts/slider-coverflow.js"></script>
 
 
 </head>
@@ -81,44 +83,47 @@
     </div>
 
     <!-- Slider main container -->
-    <div class="swiper mySwiper">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide">
-                <img src="./img/slider/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg" alt="">
+    <div class="swiper-cont">
+        <h2 class="swiper__header">Manage your future yourself</h2>
+        <div class="swiper swiper-autoplay">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide">
+                    <img src="./img/slider/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slider/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slider/domenico-loia-hGV2TfOh0ns-unsplash (1).jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slider/jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slider/krakenimages-376KN_ISplE-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slider/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slider/thought-catalog-505eectW54k-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="./img/slider/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg" alt="">
+                </div>
             </div>
-            <div class="swiper-slide">
-                <img src="./img/slider/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/slider/domenico-loia-hGV2TfOh0ns-unsplash (1).jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/slider/jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/slider/krakenimages-376KN_ISplE-unsplash.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/slider/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/slider/thought-catalog-505eectW54k-unsplash.jpg" alt="">
-            </div>
-            <div class="swiper-slide">
-                <img src="./img/slider/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg" alt="">
-            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination"></div>
+
+            <!-- If we need navigation buttons -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
         </div>
-        <!-- If we need pagination -->
-        <!-- <div class="swiper-pagination"></div> -->
-
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-
-        <!-- If we need scrollbar -->
-        <!-- <div class="swiper-scrollbar"></div> -->
     </div>
 
 
@@ -144,6 +149,47 @@
         </div>
     </div>
 
+    <div class="swiper-cont_coverflow">
+        <div class="swiper swiper_coverflow">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper swiper-wrapper_coverflow">
+                <!-- Slides -->
+                <div class=" swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/arnel-hasanovic-MNd-Rka1o0Q-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/carl-heyerdahl-KE0nC8-58MQ-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/domenico-loia-hGV2TfOh0ns-unsplash (1).jpg" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/jason-goodman-Oalh2MojUuk-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/krakenimages-376KN_ISplE-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/priscilla-du-preez-XkKCui44iM0-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/thought-catalog-505eectW54k-unsplash.jpg" alt="">
+                </div>
+                <div class="swiper-slide swiper-slide_coverflow">
+                    <img src="./img/slider/tim-van-der-kuip-CPs2X8JYmS8-unsplash.jpg" alt="">
+                </div>
+            </div>
+            <!-- If we need pagination -->
+            <div class="swiper-pagination swiper-pagination_coverflow"></div>
+
+            <!-- If we need navigation buttons -->
+            <!-- <div class="swiper-button-prev"></div> -->
+            <!-- <div class="swiper-button-next"></div> -->
+
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+    </div>
 
     <footer class="footer" id="contacts">
         <nav class="footer__nav">
